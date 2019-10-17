@@ -13,4 +13,7 @@ reads in a graph from the "Ginput.txt" file. The user can print the graph inform
 The user can find the shortest path from a vertice s to vertice t by typing C s t flag. The flag value
 is 0 to print the length of the shortest path, and 1 to print the shortest path itself. The Makefile
 will create an executable named "run" and the program can be run by typing ./run. An example
-"Ginput.txt" file is given.
+"Ginput.txt" file is given. The ﬁrst line of the ﬁle contains two integers n and m, which indicate the
+number of vertices and the number of edges of the graph, respectively. It is followed by m lines, where
+each line contains three integers: u, v, and w. These three integers indicate the information of an
+edge: there is an edge pointing from u to v, with weight w.
